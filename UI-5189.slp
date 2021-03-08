@@ -1,0 +1,629 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {
+        "link100": {
+            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_view_id": "output0"
+        },
+        "link101": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output0"
+        },
+        "link102": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output0"
+        },
+        "link108": {
+            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_view_id": "output0"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "rkappagantu@snaplogic.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {},
+        "output": {
+            "11111111-1111-1111-1111-000000000003_output0": {
+                "label": {
+                    "value": "JSON Formatter1 - output0"
+                },
+                "view_type": {
+                    "value": "binary"
+                }
+            }
+        },
+        "settings": {
+            "error_param_table": {
+                "value": []
+            },
+            "error_pipeline": {
+                "expression": false,
+                "value": null
+            },
+            "imports": {
+                "value": []
+            },
+            "param_table": {
+                "value": []
+            },
+            "suspendable": {
+                "value": false
+            },
+            "test_pipeline": {
+                "value": false
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 4,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 180,
+                "rot_tail_int": 180,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 7,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000005": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-transform-jsongenerator",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Generator"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "arrayElementsAsDocuments": {
+                        "value": true
+                    },
+                    "editable_content": {
+                        "value": "[{\"headers\":{\"content-length\":\"463\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=707860\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:53 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":707860,\"name\":\"Hurzuf\",\"country\":\"UA\",\"coord\":{\"lon\":34.283333,\"lat\":44.549999}},\"entity\":{\"coord\":{\"lon\":-156,\"lat\":19.64},\"weather\":[{\"id\":800,\"main\":\"Clear\",\"description\":\"clear sky\",\"icon\":\"02n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":296.698,\"pressure\":1012.1,\"humidity\":100,\"temp_min\":296.698,\"temp_max\":296.698,\"sea_level\":1033.28,\"grnd_level\":1012.1},\"wind\":{\"speed\":7.8,\"deg\":64.5009},\"clouds\":{\"all\":8},\"dt\":1462266648,\"sys\":{\"message\":0.0033,\"country\":\"US\",\"sunrise\":1462290811,\"sunset\":1462337294},\"id\":5847504,\"name\":\"Kailua-Kona\",\"cod\":200}},{\"headers\":{\"content-length\":\"470\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=519188\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:53 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":519188,\"name\":\"Novinki\",\"country\":\"RU\",\"coord\":{\"lon\":37.666668,\"lat\":55.683334}},\"entity\":{\"coord\":{\"lon\":-157.95,\"lat\":21.68},\"weather\":[{\"id\":804,\"main\":\"Clouds\",\"description\":\"overcast clouds\",\"icon\":\"04n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":295.798,\"pressure\":1027.42,\"humidity\":87,\"temp_min\":295.798,\"temp_max\":295.798,\"sea_level\":1034.58,\"grnd_level\":1027.42},\"wind\":{\"speed\":4.6,\"deg\":79.0009},\"clouds\":{\"all\":88},\"dt\":1462266806,\"sys\":{\"message\":0.0025,\"country\":\"US\",\"sunrise\":1462291114,\"sunset\":1462337929},\"id\":5847387,\"name\":\"Kahuku\",\"cod\":200}},{\"headers\":{\"content-length\":\"463\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=708546\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:53 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":708546,\"name\":\"Holubynka\",\"country\":\"UA\",\"coord\":{\"lon\":33.900002,\"lat\":44.599998}},\"entity\":{\"coord\":{\"lon\":-156,\"lat\":19.64},\"weather\":[{\"id\":800,\"main\":\"Clear\",\"description\":\"clear sky\",\"icon\":\"02n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":296.698,\"pressure\":1012.1,\"humidity\":100,\"temp_min\":296.698,\"temp_max\":296.698,\"sea_level\":1033.28,\"grnd_level\":1012.1},\"wind\":{\"speed\":7.8,\"deg\":64.5009},\"clouds\":{\"all\":8},\"dt\":1462266648,\"sys\":{\"message\":0.0033,\"country\":\"US\",\"sunrise\":1462290811,\"sunset\":1462337294},\"id\":5847504,\"name\":\"Kailua-Kona\",\"cod\":200}},{\"headers\":{\"content-length\":\"470\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=529334\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:53 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":529334,\"name\":\"Mar\u2019ina Roshcha\",\"country\":\"RU\",\"coord\":{\"lon\":37.611111,\"lat\":55.796391}},\"entity\":{\"coord\":{\"lon\":-157.95,\"lat\":21.68},\"weather\":[{\"id\":804,\"main\":\"Clouds\",\"description\":\"overcast clouds\",\"icon\":\"04n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":295.798,\"pressure\":1027.42,\"humidity\":87,\"temp_min\":295.798,\"temp_max\":295.798,\"sea_level\":1034.58,\"grnd_level\":1027.42},\"wind\":{\"speed\":4.6,\"deg\":79.0009},\"clouds\":{\"all\":88},\"dt\":1462266806,\"sys\":{\"message\":0.0025,\"country\":\"US\",\"sunrise\":1462291114,\"sunset\":1462337929},\"id\":5847387,\"name\":\"Kahuku\",\"cod\":200}},{\"headers\":{\"content-length\":\"477\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=703363\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:53 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":703363,\"name\":\"Laspi\",\"country\":\"UA\",\"coord\":{\"lon\":33.733334,\"lat\":44.416668}},\"entity\":{\"coord\":{\"lon\":-120.59,\"lat\":40.38},\"weather\":[{\"id\":802,\"main\":\"Clouds\",\"description\":\"scattered clouds\",\"icon\":\"03n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":278.448,\"pressure\":852.33,\"humidity\":64,\"temp_min\":278.448,\"temp_max\":278.448,\"sea_level\":1029.15,\"grnd_level\":852.33},\"wind\":{\"speed\":1.25,\"deg\":252.001},\"clouds\":{\"all\":44},\"dt\":1462266582,\"sys\":{\"message\":0.0071,\"country\":\"US\",\"sunrise\":1462280277,\"sunset\":1462330856},\"id\":5566004,\"name\":\"Johnstonville\",\"cod\":200}},{\"headers\":{\"content-length\":\"464\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=473537\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:53 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":473537,\"name\":\"Vinogradovo\",\"country\":\"RU\",\"coord\":{\"lon\":38.545555,\"lat\":55.423332}},\"entity\":{\"coord\":{\"lon\":-103.43,\"lat\":20.6},\"weather\":[{\"id\":800,\"main\":\"Clear\",\"description\":\"clear sky\",\"icon\":\"01n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":289.398,\"pressure\":845.12,\"humidity\":63,\"temp_min\":289.398,\"temp_max\":289.398,\"sea_level\":1022.66,\"grnd_level\":845.12},\"wind\":{\"speed\":1.15,\"deg\":246.501},\"clouds\":{\"all\":0},\"dt\":1462266696,\"sys\":{\"message\":0.0034,\"country\":\"MX\",\"sunrise\":1462278122,\"sunset\":1462324752},\"id\":3981399,\"name\":\"Toluquilla\",\"cod\":200}},{\"headers\":{\"content-length\":\"451\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=384848\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:53 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":384848,\"name\":\"Qarah Gawl al \u2018Uly\u0101\",\"country\":\"IQ\",\"coord\":{\"lon\":45.6325,\"lat\":35.353889}},\"entity\":{\"coord\":{\"lon\":-43.55,\"lat\":-22.91},\"weather\":[{\"id\":800,\"main\":\"Clear\",\"description\":\"clear sky\",\"icon\":\"01n\"}],\"base\":\"stations\",\"main\":{\"temp\":292.15,\"pressure\":1019,\"humidity\":93,\"temp_min\":292.15,\"temp_max\":292.15},\"visibility\":10000,\"wind\":{\"speed\":2.6,\"deg\":330},\"clouds\":{\"all\":0},\"dt\":1462262400,\"sys\":{\"type\":1,\"id\":4565,\"message\":0.0265,\"country\":\"BR\",\"sunrise\":1462266899,\"sunset\":1462307204},\"id\":3467745,\"name\":\"Campo Grande\",\"cod\":200}},{\"headers\":{\"content-length\":\"464\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=569143\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:53 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":569143,\"name\":\"Cherkizovo\",\"country\":\"RU\",\"coord\":{\"lon\":37.728889,\"lat\":55.800835}},\"entity\":{\"coord\":{\"lon\":-103.43,\"lat\":20.6},\"weather\":[{\"id\":800,\"main\":\"Clear\",\"description\":\"clear sky\",\"icon\":\"01n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":289.398,\"pressure\":845.12,\"humidity\":63,\"temp_min\":289.398,\"temp_max\":289.398,\"sea_level\":1022.66,\"grnd_level\":845.12},\"wind\":{\"speed\":1.15,\"deg\":246.501},\"clouds\":{\"all\":0},\"dt\":1462266696,\"sys\":{\"message\":0.0034,\"country\":\"MX\",\"sunrise\":1462278122,\"sunset\":1462324752},\"id\":3981399,\"name\":\"Toluquilla\",\"cod\":200}},{\"headers\":{\"content-length\":\"470\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=713514\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:53 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":713514,\"name\":\"Alupka\",\"country\":\"UA\",\"coord\":{\"lon\":34.049999,\"lat\":44.416668}},\"entity\":{\"coord\":{\"lon\":88.25,\"lat\":23.55},\"weather\":[{\"id\":802,\"main\":\"Clouds\",\"description\":\"scattered clouds\",\"icon\":\"03d\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":312.048,\"pressure\":1015.26,\"humidity\":36,\"temp_min\":312.048,\"temp_max\":312.048,\"sea_level\":1017.23,\"grnd_level\":1015.26},\"wind\":{\"speed\":4.95,\"deg\":203.001},\"clouds\":{\"all\":36},\"dt\":1462266807,\"sys\":{\"message\":0.0025,\"country\":\"IN\",\"sunrise\":1462231896,\"sunset\":1462278980},\"id\":1260038,\"name\":\"Patuli\",\"cod\":200}},{\"headers\":{\"content-length\":\"470\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=464176\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:53 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":464176,\"name\":\"Zavety Il\u2019icha\",\"country\":\"RU\",\"coord\":{\"lon\":37.849998,\"lat\":56.049999}},\"entity\":{\"coord\":{\"lon\":-157.95,\"lat\":21.68},\"weather\":[{\"id\":804,\"main\":\"Clouds\",\"description\":\"overcast clouds\",\"icon\":\"04n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":295.798,\"pressure\":1027.42,\"humidity\":87,\"temp_min\":295.798,\"temp_max\":295.798,\"sea_level\":1034.58,\"grnd_level\":1027.42},\"wind\":{\"speed\":4.6,\"deg\":79.0009},\"clouds\":{\"all\":88},\"dt\":1462266806,\"sys\":{\"message\":0.0025,\"country\":\"US\",\"sunrise\":1462291114,\"sunset\":1462337929},\"id\":5847387,\"name\":\"Kahuku\",\"cod\":200}},{\"headers\":{\"content-length\":\"451\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=295582\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:53 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":295582,\"name\":\"\u2018Azriqam\",\"country\":\"IL\",\"coord\":{\"lon\":34.700001,\"lat\":31.75}},\"entity\":{\"coord\":{\"lon\":-43.55,\"lat\":-22.91},\"weather\":[{\"id\":800,\"main\":\"Clear\",\"description\":\"clear sky\",\"icon\":\"01n\"}],\"base\":\"stations\",\"main\":{\"temp\":292.15,\"pressure\":1019,\"humidity\":93,\"temp_min\":292.15,\"temp_max\":292.15},\"visibility\":10000,\"wind\":{\"speed\":2.6,\"deg\":330},\"clouds\":{\"all\":0},\"dt\":1462262400,\"sys\":{\"type\":1,\"id\":4565,\"message\":0.0265,\"country\":\"BR\",\"sunrise\":1462266899,\"sunset\":1462307204},\"id\":3467745,\"name\":\"Campo Grande\",\"cod\":200}},{\"headers\":{\"content-length\":\"464\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=690856\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:53 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":690856,\"name\":\"Tyuzler\",\"country\":\"UA\",\"coord\":{\"lon\":34.083332,\"lat\":44.466667}},\"entity\":{\"coord\":{\"lon\":-103.43,\"lat\":20.6},\"weather\":[{\"id\":800,\"main\":\"Clear\",\"description\":\"clear sky\",\"icon\":\"01n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":289.398,\"pressure\":845.12,\"humidity\":63,\"temp_min\":289.398,\"temp_max\":289.398,\"sea_level\":1022.66,\"grnd_level\":845.12},\"wind\":{\"speed\":1.15,\"deg\":246.501},\"clouds\":{\"all\":0},\"dt\":1462266696,\"sys\":{\"message\":0.0034,\"country\":\"MX\",\"sunrise\":1462278122,\"sunset\":1462324752},\"id\":3981399,\"name\":\"Toluquilla\",\"cod\":200}},{\"headers\":{\"content-length\":\"464\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=464737\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:53 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":464737,\"name\":\"Zaponor\u2019ye\",\"country\":\"RU\",\"coord\":{\"lon\":38.861942,\"lat\":55.639999}},\"entity\":{\"coord\":{\"lon\":-103.43,\"lat\":20.6},\"weather\":[{\"id\":800,\"main\":\"Clear\",\"description\":\"clear sky\",\"icon\":\"01n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":289.398,\"pressure\":845.12,\"humidity\":63,\"temp_min\":289.398,\"temp_max\":289.398,\"sea_level\":1022.66,\"grnd_level\":845.12},\"wind\":{\"speed\":1.15,\"deg\":246.501},\"clouds\":{\"all\":0},\"dt\":1462266696,\"sys\":{\"message\":0.0034,\"country\":\"MX\",\"sunrise\":1462278122,\"sunset\":1462324752},\"id\":3981399,\"name\":\"Toluquilla\",\"cod\":200}},{\"headers\":{\"content-length\":\"463\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=707716\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:53 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":707716,\"name\":\"Il\u2019ich\u00ebvka\",\"country\":\"UA\",\"coord\":{\"lon\":34.383331,\"lat\":44.666668}},\"entity\":{\"coord\":{\"lon\":-156,\"lat\":19.64},\"weather\":[{\"id\":800,\"main\":\"Clear\",\"description\":\"clear sky\",\"icon\":\"02n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":296.698,\"pressure\":1012.1,\"humidity\":100,\"temp_min\":296.698,\"temp_max\":296.698,\"sea_level\":1033.28,\"grnd_level\":1012.1},\"wind\":{\"speed\":7.8,\"deg\":64.5009},\"clouds\":{\"all\":8},\"dt\":1462266648,\"sys\":{\"message\":0.0033,\"country\":\"US\",\"sunrise\":1462290811,\"sunset\":1462337294},\"id\":5847504,\"name\":\"Kailua-Kona\",\"cod\":200}},{\"headers\":{\"content-length\":\"474\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=697959\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:53 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":697959,\"name\":\"Partyzans\u2019ke\",\"country\":\"UA\",\"coord\":{\"lon\":34.083332,\"lat\":44.833332}},\"entity\":{\"coord\":{\"lon\":-158.02,\"lat\":21.47},\"weather\":[{\"id\":803,\"main\":\"Clouds\",\"description\":\"broken clouds\",\"icon\":\"04n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":296.948,\"pressure\":1031.71,\"humidity\":98,\"temp_min\":296.948,\"temp_max\":296.948,\"sea_level\":1034.5,\"grnd_level\":1031.71},\"wind\":{\"speed\":7.45,\"deg\":74.0009},\"clouds\":{\"all\":64},\"dt\":1462266396,\"sys\":{\"message\":0.0043,\"country\":\"US\",\"sunrise\":1462291148,\"sunset\":1462337929},\"id\":5854718,\"name\":\"Waipio Acres\",\"cod\":200}},{\"headers\":{\"content-length\":\"466\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=803611\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:54 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":803611,\"name\":\"Yurevichi\",\"country\":\"RU\",\"coord\":{\"lon\":39.934444,\"lat\":43.600555}},\"entity\":{\"coord\":{\"lon\":-155.92,\"lat\":19.5},\"weather\":[{\"id\":800,\"main\":\"Clear\",\"description\":\"clear sky\",\"icon\":\"02n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":296.698,\"pressure\":1012.1,\"humidity\":100,\"temp_min\":296.698,\"temp_max\":296.698,\"sea_level\":1033.28,\"grnd_level\":1012.1},\"wind\":{\"speed\":7.8,\"deg\":64.5009},\"clouds\":{\"all\":8},\"dt\":1462266807,\"sys\":{\"message\":0.0036,\"country\":\"US\",\"sunrise\":1462290803,\"sunset\":1462337264},\"id\":5857264,\"name\":\"Captain Cook\",\"cod\":200}},{\"headers\":{\"content-length\":\"468\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=614371\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:54 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":614371,\"name\":\"Gumist\u2019a\",\"country\":\"GE\",\"coord\":{\"lon\":40.973888,\"lat\":43.026943}},\"entity\":{\"coord\":{\"lon\":-114.29,\"lat\":50.67},\"weather\":[{\"id\":800,\"main\":\"Clear\",\"description\":\"clear sky\",\"icon\":\"01n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":275.898,\"pressure\":834.25,\"humidity\":82,\"temp_min\":275.898,\"temp_max\":275.898,\"sea_level\":1030.04,\"grnd_level\":834.25},\"wind\":{\"speed\":0.95,\"deg\":237.501},\"clouds\":{\"all\":0},\"dt\":1462266807,\"sys\":{\"message\":0.0046,\"country\":\"CA\",\"sunrise\":1462277170,\"sunset\":1462330963},\"id\":6170469,\"name\":\"Turner Valley\",\"cod\":200}},{\"headers\":{\"content-length\":\"466\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=874560\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:54 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":874560,\"name\":\"Ptitsefabrika\",\"country\":\"GE\",\"coord\":{\"lon\":40.290558,\"lat\":43.183613}},\"entity\":{\"coord\":{\"lon\":-155.92,\"lat\":19.5},\"weather\":[{\"id\":800,\"main\":\"Clear\",\"description\":\"clear sky\",\"icon\":\"02n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":296.698,\"pressure\":1012.1,\"humidity\":100,\"temp_min\":296.698,\"temp_max\":296.698,\"sea_level\":1033.28,\"grnd_level\":1012.1},\"wind\":{\"speed\":7.8,\"deg\":64.5009},\"clouds\":{\"all\":8},\"dt\":1462266807,\"sys\":{\"message\":0.0036,\"country\":\"US\",\"sunrise\":1462290803,\"sunset\":1462337264},\"id\":5857264,\"name\":\"Captain Cook\",\"cod\":200}},{\"headers\":{\"content-length\":\"466\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=874652\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:54 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":874652,\"name\":\"Orekhovo\",\"country\":\"GE\",\"coord\":{\"lon\":40.146111,\"lat\":43.351391}},\"entity\":{\"coord\":{\"lon\":-155.92,\"lat\":19.5},\"weather\":[{\"id\":800,\"main\":\"Clear\",\"description\":\"clear sky\",\"icon\":\"02n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":296.698,\"pressure\":1012.1,\"humidity\":100,\"temp_min\":296.698,\"temp_max\":296.698,\"sea_level\":1033.28,\"grnd_level\":1012.1},\"wind\":{\"speed\":7.8,\"deg\":64.5009},\"clouds\":{\"all\":8},\"dt\":1462266807,\"sys\":{\"message\":0.0036,\"country\":\"US\",\"sunrise\":1462290803,\"sunset\":1462337264},\"id\":5857264,\"name\":\"Captain Cook\",\"cod\":200}},{\"headers\":{\"content-length\":\"464\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=563692\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:54 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":563692,\"name\":\"Dzhaga\",\"country\":\"RU\",\"coord\":{\"lon\":42.650002,\"lat\":43.25}},\"entity\":{\"coord\":{\"lon\":-103.43,\"lat\":20.6},\"weather\":[{\"id\":800,\"main\":\"Clear\",\"description\":\"clear sky\",\"icon\":\"01n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":289.398,\"pressure\":845.12,\"humidity\":63,\"temp_min\":289.398,\"temp_max\":289.398,\"sea_level\":1022.66,\"grnd_level\":845.12},\"wind\":{\"speed\":1.15,\"deg\":246.501},\"clouds\":{\"all\":0},\"dt\":1462266696,\"sys\":{\"message\":0.0034,\"country\":\"MX\",\"sunrise\":1462278122,\"sunset\":1462324752},\"id\":3981399,\"name\":\"Toluquilla\",\"cod\":200}},{\"headers\":{\"content-length\":\"464\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=481725\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:54 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":481725,\"name\":\"Tret\u2019ya Rota\",\"country\":\"RU\",\"coord\":{\"lon\":39.681389,\"lat\":43.741943}},\"entity\":{\"coord\":{\"lon\":-103.43,\"lat\":20.6},\"weather\":[{\"id\":800,\"main\":\"Clear\",\"description\":\"clear sky\",\"icon\":\"01n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":289.398,\"pressure\":845.12,\"humidity\":63,\"temp_min\":289.398,\"temp_max\":289.398,\"sea_level\":1022.66,\"grnd_level\":845.12},\"wind\":{\"speed\":1.15,\"deg\":246.501},\"clouds\":{\"all\":0},\"dt\":1462266696,\"sys\":{\"message\":0.0034,\"country\":\"MX\",\"sunrise\":1462278122,\"sunset\":1462324752},\"id\":3981399,\"name\":\"Toluquilla\",\"cod\":200}},{\"headers\":{\"content-length\":\"474\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=975511\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:54 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":975511,\"name\":\"Mkuze\",\"country\":\"ZA\",\"coord\":{\"lon\":32.038609,\"lat\":-27.616409}},\"entity\":{\"coord\":{\"lon\":-158.02,\"lat\":21.47},\"weather\":[{\"id\":803,\"main\":\"Clouds\",\"description\":\"broken clouds\",\"icon\":\"04n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":296.948,\"pressure\":1031.71,\"humidity\":98,\"temp_min\":296.948,\"temp_max\":296.948,\"sea_level\":1034.5,\"grnd_level\":1031.71},\"wind\":{\"speed\":7.45,\"deg\":74.0009},\"clouds\":{\"all\":64},\"dt\":1462266396,\"sys\":{\"message\":0.0043,\"country\":\"US\",\"sunrise\":1462291148,\"sunset\":1462337929},\"id\":5854718,\"name\":\"Waipio Acres\",\"cod\":200}},{\"headers\":{\"content-length\":\"463\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=745042\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:54 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":745042,\"name\":\"\u0130stanbul\",\"country\":\"TR\",\"coord\":{\"lon\":28.983311,\"lat\":41.03508}},\"entity\":{\"coord\":{\"lon\":-156,\"lat\":19.64},\"weather\":[{\"id\":800,\"main\":\"Clear\",\"description\":\"clear sky\",\"icon\":\"02n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":296.698,\"pressure\":1012.1,\"humidity\":100,\"temp_min\":296.698,\"temp_max\":296.698,\"sea_level\":1033.28,\"grnd_level\":1012.1},\"wind\":{\"speed\":7.8,\"deg\":64.5009},\"clouds\":{\"all\":8},\"dt\":1462266648,\"sys\":{\"message\":0.0033,\"country\":\"US\",\"sunrise\":1462290811,\"sunset\":1462337294},\"id\":5847504,\"name\":\"Kailua-Kona\",\"cod\":200}},{\"headers\":{\"content-length\":\"470\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=476350\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:54 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":476350,\"name\":\"Vavibet\",\"country\":\"RU\",\"coord\":{\"lon\":34.916668,\"lat\":67.933334}},\"entity\":{\"coord\":{\"lon\":-157.95,\"lat\":21.68},\"weather\":[{\"id\":804,\"main\":\"Clouds\",\"description\":\"overcast clouds\",\"icon\":\"04n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":295.798,\"pressure\":1027.42,\"humidity\":87,\"temp_min\":295.798,\"temp_max\":295.798,\"sea_level\":1034.58,\"grnd_level\":1027.42},\"wind\":{\"speed\":4.6,\"deg\":79.0009},\"clouds\":{\"all\":88},\"dt\":1462266806,\"sys\":{\"message\":0.0025,\"country\":\"US\",\"sunrise\":1462291114,\"sunset\":1462337929},\"id\":5847387,\"name\":\"Kahuku\",\"cod\":200}},{\"headers\":{\"content-length\":\"476\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=456169\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:54 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":456169,\"name\":\"R\u012bgas Rajons\",\"country\":\"LV\",\"coord\":{\"lon\":24.333332,\"lat\":57}},\"entity\":{\"coord\":{\"lon\":103.9,\"lat\":1.35},\"weather\":[{\"id\":802,\"main\":\"Clouds\",\"description\":\"scattered clouds\",\"icon\":\"03d\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":304.898,\"pressure\":1019.15,\"humidity\":81,\"temp_min\":304.898,\"temp_max\":304.898,\"sea_level\":1019.95,\"grnd_level\":1019.15},\"wind\":{\"speed\":3.65,\"deg\":139.001},\"clouds\":{\"all\":36},\"dt\":1462266713,\"sys\":{\"message\":0.0036,\"country\":\"SG\",\"sunrise\":1462229775,\"sunset\":1462273573},\"id\":1882749,\"name\":\"Kampong Siren\",\"cod\":200}},{\"headers\":{\"content-length\":\"464\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=475279\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:54 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":475279,\"name\":\"Verkhneye Shchekotikhino\",\"country\":\"RU\",\"coord\":{\"lon\":36.133331,\"lat\":53}},\"entity\":{\"coord\":{\"lon\":-103.43,\"lat\":20.6},\"weather\":[{\"id\":800,\"main\":\"Clear\",\"description\":\"clear sky\",\"icon\":\"01n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":289.398,\"pressure\":845.12,\"humidity\":63,\"temp_min\":289.398,\"temp_max\":289.398,\"sea_level\":1022.66,\"grnd_level\":845.12},\"wind\":{\"speed\":1.15,\"deg\":246.501},\"clouds\":{\"all\":0},\"dt\":1462266696,\"sys\":{\"message\":0.0034,\"country\":\"MX\",\"sunrise\":1462278122,\"sunset\":1462324752},\"id\":3981399,\"name\":\"Toluquilla\",\"cod\":200}},{\"headers\":{\"content-length\":\"463\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=711349\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:55 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":711349,\"name\":\"Bucha\",\"country\":\"UA\",\"coord\":{\"lon\":30.366671,\"lat\":50.583328}},\"entity\":{\"coord\":{\"lon\":-156,\"lat\":19.64},\"weather\":[{\"id\":800,\"main\":\"Clear\",\"description\":\"clear sky\",\"icon\":\"02n\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":296.698,\"pressure\":1012.1,\"humidity\":100,\"temp_min\":296.698,\"temp_max\":296.698,\"sea_level\":1033.28,\"grnd_level\":1012.1},\"wind\":{\"speed\":7.8,\"deg\":64.5009},\"clouds\":{\"all\":8},\"dt\":1462266648,\"sys\":{\"message\":0.0033,\"country\":\"US\",\"sunrise\":1462290811,\"sunset\":1462337294},\"id\":5847504,\"name\":\"Kailua-Kona\",\"cod\":200}},{\"headers\":{\"content-length\":\"481\",\"connection\":\"keep-alive\",\"access-control-allow-origin\":\"*\",\"x-cache-key\":\"/data/2.5/weather?q=798544\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 03 May 2016 09:24:54 GMT\",\"server\":\"openresty\",\"access-control-allow-methods\":\"GET, POST\",\"access-control-allow-credentials\":\"true\"},\"statusLine\":{\"protoVersion\":\"HTTP/1.1\",\"statusCode\":200,\"reasonPhrase\":\"OK\"},\"original\":{\"_id\":798544,\"name\":\"Republic of Poland\",\"country\":\"PL\",\"coord\":{\"lon\":20,\"lat\":52}},\"entity\":{\"coord\":{\"lon\":103.88,\"lat\":1.37},\"weather\":[{\"id\":802,\"main\":\"Clouds\",\"description\":\"scattered clouds\",\"icon\":\"03d\"}],\"base\":\"cmc stations\",\"main\":{\"temp\":304.898,\"pressure\":1019.15,\"humidity\":81,\"temp_min\":304.898,\"temp_max\":304.898,\"sea_level\":1019.95,\"grnd_level\":1019.15},\"wind\":{\"speed\":3.65,\"deg\":139.001},\"clouds\":{\"all\":36},\"dt\":1462266744,\"sys\":{\"message\":0.0108,\"country\":\"SG\",\"sunrise\":1462229778,\"sunset\":1462273579},\"id\":1880242,\"name\":\"Somapah Serangoon\",\"cod\":200}}]"
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "passThroughProp": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-mysql-insert",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "MySQL_Enron_Diff_DB"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snap-api-sql-accounts-mysqldatabaseaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "MySQL - Insert"
+                    }
+                },
+                "input": {
+                    "inputRows": {
+                        "label": {
+                            "value": "rows"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "createTable": {
+                        "value": false
+                    },
+                    "duplicates": {
+                        "value": "Fail"
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Disabled"
+                    },
+                    "maxRetryProp": {
+                        "expression": false,
+                        "value": 0
+                    },
+                    "preserveCaseSensistiveness": {
+                        "value": false
+                    },
+                    "retryIntervalProp": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "schemaName": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "tableName": {
+                        "expression": false,
+                        "value": "`enron`.`Employee`"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-transform-jsonformatter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Formatter"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "contentPath": {
+                        "value": "$"
+                    },
+                    "deriveSchemaLimit": {
+                        "value": "None"
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "formatSingleDocument": {
+                        "value": false
+                    },
+                    "header": {
+                        "value": [
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": ""
+                                }
+                            }
+                        ]
+                    },
+                    "ignoreEmptyStream": {
+                        "value": false
+                    },
+                    "jsonLines": {
+                        "value": false
+                    },
+                    "prettyPrint": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-transform-jsonformatter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Formatter1"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "contentPath": {
+                        "value": "$"
+                    },
+                    "deriveSchemaLimit": {
+                        "value": "None"
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "formatSingleDocument": {
+                        "value": false
+                    },
+                    "header": {
+                        "value": [
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": null
+                                },
+                                "targetPath": {
+                                    "value": null
+                                }
+                            }
+                        ]
+                    },
+                    "ignoreEmptyStream": {
+                        "value": false
+                    },
+                    "jsonLines": {
+                        "value": false
+                    },
+                    "prettyPrint": {
+                        "value": false
+                    },
+                    "schema": {
+                        "expression": false,
+                        "value": ""
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-snaps-transform-jsonparser",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Parser"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "allowNonStandardJson": {
+                        "value": true
+                    },
+                    "arrayElementsAsDocuments": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "jsonFilterPath": {
+                        "value": ""
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000005": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$entity.clouds.all"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Entity+$statusLine.statusCode+$Employee_ID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$statusLine.protoVersion"
+                                        },
+                                        "targetPath": {
+                                            "value": "$NewValue"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$statusLine.statusCode"
+                                        },
+                                        "targetPath": {
+                                            "value": "$original._id"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        }
+    }
+}

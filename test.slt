@@ -1,0 +1,16 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "test",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "include_external_urls": true,
+        "job_type": "standard",
+        "llfeed_token": "GvZhmz0no5NeBAFhv471WVwKmI82Izax",
+        "pipeline_path": "Resumable_EnabledPipeline",
+        "snaplex_path": "UltraGroundplex"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

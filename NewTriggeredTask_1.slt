@@ -1,0 +1,34 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "NewTriggeredTask_1",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "include_external_urls": true,
+        "job_type": "standard",
+        "llfeed_token": "bPZZf7etCXvd8uSgz1HycgOrycGNaxiX",
+        "notification": {
+            "slack_recipients": [
+                {
+                    "channel": [
+                        {
+                            "channel_name": "dev-slack-workspace",
+                            "slack_id": "C01GV0E2D8X"
+                        }
+                    ],
+                    "user": [
+                        {
+                            "slack_id": "U01HZMEJWTA",
+                            "username": "rkappagantu"
+                        }
+                    ]
+                }
+            ]
+        },
+        "pipeline_path": "Resumable_EnabledPipeline",
+        "snaplex_path": "UltraGroundplex"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

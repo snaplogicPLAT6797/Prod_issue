@@ -1,15 +1,7 @@
 {
     "class_id": "com-snaplogic-pipeline",
     "class_version": 9,
-    "link_map": {
-        "link100": {
-            "dst_id": "11111111-1111-1111-1111-000000000001",
-            "dst_view_id": "input0",
-            "isGoto": false,
-            "src_id": "11111111-1111-1111-1111-000000000000",
-            "src_view_id": "output0"
-        }
-    },
+    "link_map": {},
     "property_map": {
         "error": {
             "error_behavior": {
@@ -31,9 +23,18 @@
                 "value": null
             }
         },
-        "input": {},
+        "input": {
+            "11111111-1111-1111-1111-000000000000_input0": {
+                "label": {
+                    "value": "CSV Parser - input0"
+                },
+                "view_type": {
+                    "value": "binary"
+                }
+            }
+        },
         "output": {
-            "11111111-1111-1111-1111-000000000001_output0": {
+            "11111111-1111-1111-1111-000000000000_output0": {
                 "label": {
                     "value": "CSV Parser - output0"
                 },
@@ -66,7 +67,7 @@
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
-                "grid_x_int": 1,
+                "grid_x_int": 4,
                 "grid_y_int": 2,
                 "index": null,
                 "input": {},
@@ -75,18 +76,6 @@
                 "rot_int": 0,
                 "rot_tail_int": 0,
                 "source": "snap catagory"
-            },
-            "11111111-1111-1111-1111-000000000001": {
-                "error": {},
-                "grid_x_int": 2,
-                "grid_y_int": 2,
-                "index": 0,
-                "input": {},
-                "output": {},
-                "recommendation_id": "6d9088ea-4dea-4966-b45c-bea71d53d4b9_0",
-                "rot_int": 0,
-                "rot_tail_int": 0,
-                "source": "iris placeholder"
             }
         },
         "pan_x_num": 0,
@@ -95,80 +84,9 @@
     },
     "snap_map": {
         "11111111-1111-1111-1111-000000000000": {
-            "class_id": "com-snaplogic-snaps-binary-simpleread",
-            "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000000",
-            "property_map": {
-                "account": {
-                    "account_ref": {
-                        "expression": false,
-                        "value": {}
-                    }
-                },
-                "error": {
-                    "error0": {
-                        "label": {
-                            "value": "error0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "error_behavior": {
-                        "value": "fail"
-                    }
-                },
-                "info": {
-                    "label": {
-                        "value": "File Reader"
-                    }
-                },
-                "output": {
-                    "output0": {
-                        "label": {
-                            "value": "output0"
-                        },
-                        "view_type": {
-                            "value": "binary"
-                        }
-                    }
-                },
-                "settings": {
-                    "advancedProperties": {
-                        "value": []
-                    },
-                    "enableStaging": {
-                        "value": false
-                    },
-                    "executeDuringPreview": {
-                        "value": true
-                    },
-                    "execution_mode": {
-                        "value": "Validate & Execute"
-                    },
-                    "filePath": {
-                        "expression": false,
-                        "value": ""
-                    },
-                    "preventURLEncoding": {
-                        "value": false
-                    },
-                    "retries": {
-                        "expression": false,
-                        "value": 0
-                    },
-                    "retryInterval": {
-                        "expression": false,
-                        "value": 1
-                    }
-                },
-                "view_serial": 100
-            }
-        },
-        "11111111-1111-1111-1111-000000000001": {
             "class_id": "com-snaplogic-snaps-transform-csvparser",
             "class_version": 3,
-            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "instance_id": "11111111-1111-1111-1111-000000000000",
             "property_map": {
                 "error": {
                     "error0": {

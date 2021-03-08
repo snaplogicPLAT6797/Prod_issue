@@ -1,0 +1,31 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "TestraghutriggeredTask",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "cciPXOB62rHTrgICECHeJzjskL8nYkzT",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_path": "Resumable_EnabledPipeline",
+        "snaplex_path": "PlexUpgradeTest"
+    },
+    "schedule": {
+        "start_date": "2021-03-08",
+        "start_time": "21:16:36",
+        "time_zone": "US/Pacific"
+    },
+    "trigger": {
+        "start_date": "2021-03-08",
+        "start_time": "21:16:36",
+        "time_zone": "US/Pacific"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

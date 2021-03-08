@@ -1,0 +1,31 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "csv parser parent task _scheduled tas",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "7jUdFQsTchthLpaJQzS4oxdikif6NynJ",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_path": "csv parser parent",
+        "snaplex_path": "Groundplex"
+    },
+    "schedule": {
+        "start_date": "2021-01-31",
+        "start_time": "18:26:00",
+        "time_zone": "UTC"
+    },
+    "trigger": {
+        "start_date": "2021-01-31",
+        "start_time": "18:26:00",
+        "time_zone": "UTC"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

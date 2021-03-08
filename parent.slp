@@ -5,7 +5,6 @@
         "link100": {
             "dst_id": "11111111-1111-1111-1111-000000000001",
             "dst_view_id": "input0",
-            "isGoto": false,
             "src_id": "11111111-1111-1111-1111-000000000000",
             "src_view_id": "output0"
         }
@@ -66,7 +65,7 @@
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
-                "grid_x_int": 1,
+                "grid_x_int": 2,
                 "grid_y_int": 2,
                 "index": null,
                 "input": {},
@@ -78,7 +77,7 @@
             },
             "11111111-1111-1111-1111-000000000001": {
                 "error": {},
-                "grid_x_int": 2,
+                "grid_x_int": 3,
                 "grid_y_int": 2,
                 "index": 0,
                 "input": {},
@@ -148,7 +147,7 @@
                     },
                     "filePath": {
                         "expression": false,
-                        "value": ""
+                        "value": "invalidCSVFile.csv"
                     },
                     "preventURLEncoding": {
                         "value": false

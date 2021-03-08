@@ -1,0 +1,32 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Rag_TriggeredTask",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "include_external_urls": true,
+        "job_type": "standard",
+        "llfeed_token": "pVT4yNLMiN8EbPatBqzzzweSLFZkAGg8",
+        "notification": {
+            "slack_recipients": [
+                {
+                    "channel": [],
+                    "user": []
+                }
+            ]
+        },
+        "pipeline_path": "Resumable_DisabledPipeline",
+        "snaplex_path": "PlexUpgradeTest"
+    },
+    "schedule": {
+        "start_date": "2021-03-08",
+        "start_time": "21:20:55",
+        "time_zone": "US/Pacific"
+    },
+    "trigger": {
+        "start_date": "2021-03-08",
+        "start_time": "21:20:55",
+        "time_zone": "US/Pacific"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

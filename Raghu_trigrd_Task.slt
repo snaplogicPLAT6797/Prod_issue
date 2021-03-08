@@ -1,0 +1,24 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Raghu_trigrd_Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "include_external_urls": false,
+        "job_type": "standard",
+        "llfeed_token": "X1jGJNAIHmPim14uMYBh5ZL7xqr99wnb",
+        "pipeline_path": "Resumable_EnabledPipeline",
+        "snaplex_path": "PlexUpgradeTest"
+    },
+    "schedule": {
+        "start_date": "2021-03-08",
+        "start_time": "21:27:35",
+        "time_zone": "US/Pacific"
+    },
+    "trigger": {
+        "start_date": "2021-03-08",
+        "start_time": "21:27:35",
+        "time_zone": "US/Pacific"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

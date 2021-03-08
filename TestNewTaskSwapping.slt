@@ -1,0 +1,31 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "TestNewTaskSwapping",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "7T5jtGuDDAzL4uNVSPARDhnMzT2XPPbY",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_path": "Resumable_DisabledPipeline",
+        "snaplex_path": "PlexUpgradeTest"
+    },
+    "schedule": {
+        "start_date": "2021-03-08",
+        "start_time": "21:07:13",
+        "time_zone": "US/Pacific"
+    },
+    "trigger": {
+        "start_date": "2021-03-08",
+        "start_time": "21:07:13",
+        "time_zone": "US/Pacific"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

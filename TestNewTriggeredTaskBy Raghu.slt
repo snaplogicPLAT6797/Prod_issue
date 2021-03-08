@@ -1,0 +1,16 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "TestNewTriggeredTaskBy Raghu",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "include_external_urls": true,
+        "job_type": "standard",
+        "llfeed_token": "MUI78NnIN7X0l0ccdlY2iQEpDaQRUdIi",
+        "pipeline_path": "Resumable_EnabledPipeline",
+        "snaplex_path": "PlexUpgradeTest"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}
