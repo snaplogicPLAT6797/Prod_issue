@@ -1,0 +1,14 @@
+POST API call :- https://<pod>.elastic.snaplogic.com/api/1/rest/plex/nodes/<snaplex snode id>
+
+like - https://canary.elastic.snaplogic.com/api/1/rest/plex/nodes/5fa8f8a4f7fa9e6d550e73f2
+
+payload :-
+{
+"regular_nodes": 1,
+"node_config": {
+"jre_version": 11,
+"data_plane": {
+"autoupgrade": false
+}
+}
+}

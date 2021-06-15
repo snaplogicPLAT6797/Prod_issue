@@ -1,0 +1,38 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "UI-6074",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "include_external_urls": true,
+        "job_type": "standard",
+        "llfeed_token": "chknJpEG6paMk6lqGJQ85c0DylJ7XbTX",
+        "notification": {
+            "slack_recipients": [
+                {
+                    "channel": [
+                        {
+                            "channel_name": "dev-slack-workspace",
+                            "slack_id": "C01GV0E2D8X"
+                        }
+                    ],
+                    "user": [
+                        {
+                            "slack_id": "U01HZMEJWTA",
+                            "username": "rkappagantu"
+                        }
+                    ]
+                }
+            ],
+            "states": [
+                "Started",
+                "Completed"
+            ]
+        },
+        "pipeline_path": "parent_2020_10_09 (1)",
+        "snaplex_path": "Cloud"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

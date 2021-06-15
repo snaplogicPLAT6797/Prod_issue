@@ -1,0 +1,11 @@
+Locators needed for Slack Notifications :
+
+Event Type - 
+Slack radio button - 
+Slack Channel locator
+Slack Direct messages locator -
+Update button for snaplex notifiation(Slack)
+Place holder for the same under snaplex notification
+Locator for Slack(SLack must be added text) - when slack was not enabled
+locators for Slack auth page(For confirm and cancel buttons on slack auth page)
+
